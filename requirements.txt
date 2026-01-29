@@ -1,0 +1,56 @@
+# FastAPI and Web Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# LangChain and LangGraph
+langchain==0.1.20
+langchain-openai==0.1.7
+langchain-community==0.0.38
+langchain-text-splitters==0.0.1
+langgraph==0.0.55
+langsmith==0.1.55
+
+# Vector Database
+chromadb==0.4.24
+sentence-transformers==2.5.1
+
+# RAG and NLP
+llama-index==0.10.20
+docling==1.0.0
+tiktoken==0.6.0
+rank-bm25==0.2.2
+
+# Reranking
+transformers
+torch
+
+# Web Search
+tavily-python==0.3.3
+
+
+pydantic-settings
+
+# Image Processing
+Pillow
+opencv-python
+numpy
+
+# Speech
+elevenlabs==1.0.0
+speechrecognition==3.10.1
+
+# Utilities
+requests==2.31.0
+aiofiles==23.2.1
+tenacity==8.2.3
+httpx==0.26.0
+
+# Development and Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+black==24.1.1
+flake8==7.0.0
